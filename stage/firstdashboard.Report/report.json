@@ -1,5 +1,5 @@
 {
-  "config": "{\"version\":\"5.49\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY23SU11\",\"version\":\"5.50\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":0,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true,\"useEnhancedTooltips\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}]}}",
+  "config": "{\"version\":\"5.49\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY23SU11\",\"version\":\"5.50\",\"type\":2}},\"activeSectionIndex\":1,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":0,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true,\"useEnhancedTooltips\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}]}}",
   "layoutOptimization": 0,
   "resourcePackages": [
     {
@@ -35,6 +35,15 @@
           "x": 10.00,
           "y": 0.00,
           "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"aadb0971a1be4e2c9889\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.863013698630137,\"y\":289.972602739726,\"z\":1,\"width\":681.5342465753425,\"height\":353.09589041095893,\"tabOrder\":1}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Orders1.Rush Shipment\"},{\"queryRef\":\"Sum(Orders1.Revenue)\"},{\"queryRef\":\"Orders1.Order Date.Variation.Date Hierarchy.Year\"},{\"queryRef\":\"Orders1.Order Date.Variation.Date Hierarchy.Quarter\"},{\"queryRef\":\"Orders1.Order Date.Variation.Date Hierarchy.Month\"},{\"queryRef\":\"Orders1.Order Date.Variation.Date Hierarchy.Day\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"o\",\"Entity\":\"Orders1\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"o\"}},\"Property\":\"Rush Shipment\"},\"Name\":\"Orders1.Rush Shipment\",\"NativeReferenceName\":\"Rush Shipment\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"o\"}},\"Property\":\"Revenue\"}},\"Function\":0},\"Name\":\"Sum(Orders1.Revenue)\",\"NativeReferenceName\":\"Sum of Revenue\"},{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"o\"}},\"Name\":\"Variation\",\"Property\":\"Order Date\"}},\"Hierarchy\":\"Date Hierarchy\"}},\"Level\":\"Year\"},\"Name\":\"Orders1.Order Date.Variation.Date Hierarchy.Year\",\"NativeReferenceName\":\"Order Date Year\"},{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"o\"}},\"Name\":\"Variation\",\"Property\":\"Order Date\"}},\"Hierarchy\":\"Date Hierarchy\"}},\"Level\":\"Quarter\"},\"Name\":\"Orders1.Order Date.Variation.Date Hierarchy.Quarter\",\"NativeReferenceName\":\"Order Date Quarter\"},{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"o\"}},\"Name\":\"Variation\",\"Property\":\"Order Date\"}},\"Hierarchy\":\"Date Hierarchy\"}},\"Level\":\"Month\"},\"Name\":\"Orders1.Order Date.Variation.Date Hierarchy.Month\",\"NativeReferenceName\":\"Order Date Month\"},{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"o\"}},\"Name\":\"Variation\",\"Property\":\"Order Date\"}},\"Hierarchy\":\"Date Hierarchy\"}},\"Level\":\"Day\"},\"Name\":\"Orders1.Order Date.Variation.Date Hierarchy.Day\",\"NativeReferenceName\":\"Order Date Day\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 353.10,
+          "width": 681.53,
+          "x": 9.86,
+          "y": 289.97,
+          "z": 1.00
         }
       ],
       "width": 1280.00
